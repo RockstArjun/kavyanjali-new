@@ -1,0 +1,18 @@
+nav{
+    padding: 10px;
+}
+nav > section{
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav >section> .hamberger-joinus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+nav >section> .hamberger-joinus >div:nth-child(1) >svg {
+    cursor: pointer;
+}
