@@ -1,1 +1,16 @@
 /* bgColor:- #eba83a */
+.home{
+    width: 100%;
+    min-height:100vh;
+    position: relative;
+    background: crimson;
+}
+.home > .labels{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.home > .labels > img{
+    width: calc(150px + 50vw);
+}

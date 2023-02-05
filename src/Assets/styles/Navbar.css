@@ -2,6 +2,10 @@ nav{
     padding: 10px;
     /* background: #eba83a; */
     box-shadow: 2px 2px 14px rgba(206, 138, 29,.65);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 nav > section{
     padding: 5px 10px;
