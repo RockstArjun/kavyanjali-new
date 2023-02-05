@@ -1,9 +1,11 @@
 /* bgColor:- #eba83a */
+/* every second section color:- #ffdfb7 */
+/* buttons :- #ffab40 */
 .home{
     width: 100%;
     min-height:100vh;
     position: relative;
-    background: crimson;
+    background: #ffdfb7;
 }
 .home > .labels{
     position: absolute;
