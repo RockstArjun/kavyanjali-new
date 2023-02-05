@@ -1,7 +1,12 @@
 import React from 'react'
+import "../../Assets/styles/Home.css"
 
 export default function Home() {
   return (
-    <div>Home</div>
+    <>
+    <section>
+      
+    </section>
+    </>
   )
 }

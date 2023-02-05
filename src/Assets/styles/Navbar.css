@@ -1,5 +1,7 @@
 nav{
     padding: 10px;
+    /* background: #eba83a; */
+    box-shadow: 2px 2px 14px rgba(206, 138, 29,.65);
 }
 nav > section{
     padding: 5px 10px;
@@ -57,11 +59,11 @@ nav >section> .hamberger-joinus >div:nth-child(1) > .ul > li{
     letter-spacing: 1px;
     font-weight: 700;
     color: #313133;
-    background: #4FD1C5;
-  background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+    background: #eba83a;
+  background: linear-gradient(90deg, rgba(247, 171, 50,1) 0%, rgba(247, 171, 50,1) 100%);
     border: none;
     border-radius: 1000px;
-    box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+    box-shadow: 12px 12px 24px rgba(206, 138, 29,.65);
     transition: all 0.3s ease-in-out 0s;
     cursor: pointer;
     outline: none;
@@ -74,8 +76,8 @@ nav >section> .hamberger-joinus >div:nth-child(1) > .ul > li{
     border-radius: 1000px;
     min-width: calc(100px + 12px);
     min-height: calc(40px + 12px);
-    border: 6px solid #00FFCB;
-    box-shadow: 0 0 2px rgba(0,255,203,.64);
+    border: 6px solid #eba83a;
+    box-shadow: 0 0 2px rgba(206, 138, 29,.65);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -97,7 +99,7 @@ nav >section> .hamberger-joinus >div:nth-child(1) > .ul > li{
     content: '';
     width: 10px; height: 10px;
     border-radius: 100%;
-    border: 6px solid #00FFCB;
+    border: 6px solid #eba83a;
     position: absolute;
     z-index: -1;
     top: 50%;
