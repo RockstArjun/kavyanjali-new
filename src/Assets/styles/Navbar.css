@@ -7,12 +7,134 @@ nav > section{
     justify-content: space-between;
     align-items: center;
 }
+nav >section > .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+nav >section >.logo >img {
+    height: calc(45px + 4vh);
+    border-radius: 100%;
+    box-shadow: 0.25px 1px 2px #101010;
+}
+
 nav >section> .hamberger-joinus {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    margin-right:20px ;
 }
 nav >section> .hamberger-joinus >div:nth-child(1) >svg {
     cursor: pointer;
+    position: relative;
 }
+.none{
+    display: none;
+}
+nav >section> .hamberger-joinus >div:nth-child(1) > .ul {
+ position: absolute;
+ top: 100px;
+ right: 100px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: left;
+ gap: 10px;
+ list-style-type: none;
+ padding: 15px 10px;
+}
+nav >section> .hamberger-joinus >div:nth-child(1) > .ul > li{
+    cursor: pointer;
+}
+.button {
+    min-width: 100px;
+    min-height: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #313133;
+    background: #4FD1C5;
+  background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    }
+  
+  .button::before {
+  content: '';
+    border-radius: 1000px;
+    min-width: calc(100px + 12px);
+    min-height: calc(40px + 12px);
+    border: 6px solid #00FFCB;
+    box-shadow: 0 0 2px rgba(0,255,203,.64);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+  }
+  
+  .button:hover, .button:focus {
+    color: #313133;
+    transform: translateY(-6px);
+  }
+  
+  .button:hover::before, .button:focus::before {
+    opacity: 1;
+  }
+  
+  .button::after {
+    content: '';
+    width: 10px; height: 10px;
+    border-radius: 100%;
+    border: 6px solid #00FFCB;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+  }
+  
+  .button:hover::after, .button:focus::after {
+    animation: none;
+    display: none;
+  }
+  
+  @keyframes ring {
+    0% {
+      width: 10px;
+      height: 10px;
+      opacity: 1;
+    }
+    100% {
+      width: 150px;
+      height: 150px;
+      opacity: 0;
+    }
+  }
+  @media only screen and (max-width:678px) {
+    .joinUsBTN{
+        display: none;
+    }
+    nav >section >.logo >img {
+        height: calc(25px + 3vh);
+        border-radius: 100%;
+        box-shadow: 0.25px 1px 2px #101010;
+    }
+    nav >section> .hamberger-joinus >div:nth-child(1) > .ul{
+        top: 70px;
+        right: 20px;
+    }
+    
+  }
