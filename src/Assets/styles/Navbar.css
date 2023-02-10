@@ -1,6 +1,7 @@
 nav{
     padding: 10px;
-    /* background: #eba83a; */
+    background: #fff3;
+    backdrop-filter: blur(10px);
     /* box-shadow: 2px 2px 14px rgba(206, 138, 29,.65); */
     position: fixed;
     top: 0;
@@ -63,7 +64,7 @@ nav >section> .hamberger-joinus >div:nth-child(1) > .ul > li{
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
-    color: #313133;
+    color: #fff;
     background: #eba83a;
   background: linear-gradient(90deg, rgba(247, 171, 50,1) 0%, rgba(247, 171, 50,1) 100%);
     border: none;
