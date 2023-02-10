@@ -6,7 +6,7 @@
   width: 100%;
   min-height: 100vh;
   position: relative;
-  background: url(../images/kvjImg.jpg) center;
+  background: url("https://raw.githubusercontent.com/RockstArjun/kavyanjali-new/master/src/Assets/images/kvjImg.jpg") center;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
