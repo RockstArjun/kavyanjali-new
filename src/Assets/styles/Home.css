@@ -1,42 +1,87 @@
 /* bgColor:- #eba83a */
 /* every second section color:- #ffdfb7 */
 /* buttons :- #ffab40 */
-.home{
-    margin-top: 90px;
-    width: 100%;
-    min-height:100vh;
+.home {
+  /* margin-top: 90px; */
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background: url(../images/kvjImg.jpg) center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home > .labels {
+  min-height: 100vh;
+  width: 100%;
+  background: #101010;
+  opacity: 0.55;
+}
+.home > .paperCut-layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.home > .paperCut-layer > svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+.home > .home-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.home > .home-content > h1 {
+  font-size: 2.3rem;
+  color: #fff;
+  line-height: 1.3em;
+  text-align: center;
+}
+.home > .home-content > .btn{
+    padding: 10px 33px;
+    text-transform: uppercase;
+    color: #ffab40;
+    border: 1px solid #ffab40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
     position: relative;
-    background: url(../images/kvjFam.jpg) center;
-    /* background-attachment: fixed; */
-    background-size: cover;
-    background-repeat: no-repeat;
 }
-.home > .labels{
-   min-height: 100vh;
-   width: 100%;
-   background: #101010;
-   opacity: .7;
+.home > .home-content > .btn:hover{
+    /* background: #ffab40; */
+    color: #fff;
+    border: 1px solid #ffab40;
+    transition:all 0.3s ease;
 }
-.home>.paperCut-layer{
-    width: 100%;
-    height: 100%;
+.home > .home-content > .btn >span{
     position: absolute;
     bottom: 0;
     left: 0;
+    background: #000;
+    width: 0%;
+    height: 0%;
+    transition:all 0.3s ease;
 }
-.home>.paperCut-layer > svg{
+.home > .home-content > .btn:hover >span{
+    z-index: -1;
     position: absolute;
     bottom: 0;
-    left: 0;z-index: 1;
-}
-.home > h1{
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    z-index: 1;
-    font-size: 3rem;
+    left: 0;
+    background: #ffab40;
     width: 100%;
-    text-align: center;
+    height: 100%;
+    transition:all 0.3s ease;
 }
