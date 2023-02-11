@@ -1,12 +1,12 @@
 nav{
     padding: 10px;
-    background: #fff3;
+    background: #0000;
     backdrop-filter: blur(10px);
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 9;
 }
 nav > section{
     padding: 5px 10px;
