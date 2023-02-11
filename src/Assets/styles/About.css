@@ -1,7 +1,38 @@
 /* bgColor:- #eba83a */
 /* every second section color:- #ffdfb7 */
 /* buttons :- #ffab40 */
-.about{
-    height: 100vh;
-    width: 100%;
+.about {
+  height: 100vh;
+  width: 100%;
+}
+.about > .whatiskvj {
+  padding: 30px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  gap: 20px;
+}
+.about > .whatiskvj > div:nth-child(1) {
+  /* width: 100%; */
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.about > .whatiskvj > div:nth-child(1) > h1 {
+  width: 100%;
+  /* text-align: right; */
+}
+.about > .whatiskvj > div:nth-child(1) > p {
+  width: 100%;
+  text-align: justify;
+}
+.about > .whatiskvj > div:nth-child(2) {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.about > .whatiskvj > div:nth-child(2) > img {
+  height: 300px;
 }
