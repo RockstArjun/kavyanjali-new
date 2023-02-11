@@ -2,7 +2,6 @@ nav{
     padding: 10px;
     background: #fff3;
     backdrop-filter: blur(10px);
-    /* box-shadow: 2px 2px 14px rgba(206, 138, 29,.65); */
     position: fixed;
     top: 0;
     left: 0;
