@@ -1,0 +1,25 @@
+.counter {
+  padding: 15px 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffc274;
+}
+.counter > .counter-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.counter > .counter-div>h1 {
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 2.5rem;
+  line-height: 1.8rem;
+}
+.counter > .counter-div>h1 >span {
+  font-size: 1.8rem;
+}

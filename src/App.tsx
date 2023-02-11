@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import About from './Components/Home/About';
+import Counter from './Components/Home/Counter';
 import Home from './Components/Home/Home';
 import Navbar from './Components/Home/Navbar';
 
@@ -9,6 +10,7 @@ function App() {
     <>
     <Navbar />
     <Home />
+    <Counter />
     <About />
     </>
   );
