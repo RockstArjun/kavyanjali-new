@@ -34,6 +34,7 @@
 }
 .about > .whatiskvj > div:nth-child(2) > img {
   height: 300px;
+  border-radius: 100%;
 }
 .about > .whyjoinus {
   padding: 60px 10px 0px 50px;
