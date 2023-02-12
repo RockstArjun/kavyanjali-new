@@ -17,9 +17,9 @@
   padding: 10px;
   text-align: center;
   color: #fff;
-  font-size: 2.5rem;
-  line-height: 1.8rem;
+  font-size: calc(1.2rem + 2vw);
+  line-height: calc(1rem + 1vw);
 }
 .counter > .counter-div>h1 >span {
-  font-size: 1.8rem;
+  font-size: calc(.8rem + 1.2vw);
 }
