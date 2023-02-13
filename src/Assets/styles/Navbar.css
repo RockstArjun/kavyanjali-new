@@ -43,17 +43,23 @@ nav >section> .hamberger-joinus >div:nth-child(1) >svg {
 nav >section> .hamberger-joinus >div:nth-child(1) > .ul {
  position: absolute;
  top: 100px;
- right: 100px;
+ right: 0px;
  display: flex;
  flex-direction: column;
- justify-content: center;
- align-items: left;
- gap: 10px;
+ gap: 20px;
  list-style-type: none;
- padding: 15px 10px;
+ padding: 35px 30px;
+ background: #ffc274;
+ height: calc(100vh - 100px);
+ width: 30.76552%;
+ text-align: left;
 }
 nav >section> .hamberger-joinus >div:nth-child(1) > .ul > li{
     cursor: pointer;
+    /* color: #fff; */
+    font-size: calc(1rem + 1vw);
+    font-weight: 700;
+    /* line-height: calc(1.3rem + 1vw); */
 }
 .button {
     min-width: 100px;
@@ -140,8 +146,7 @@ nav >section> .hamberger-joinus >div:nth-child(1) > .ul > li{
         box-shadow: 0.25px 1px 2px #101010;
     }
     nav >section> .hamberger-joinus >div:nth-child(1) > .ul{
-        top: 70px;
-        right: 20px;
+     width: 40.87987%;   
     }
     
   }

@@ -17,7 +17,7 @@ export default function About() {
             </p>
           </div>
           <div>
-            <img data-aos="fade-up" src={kvjLogo} alt="" />
+            <img data-aos="zoom-in" src={kvjLogo} alt="" />
           </div>
         </div>
         <div className="whyjoinus">
@@ -31,7 +31,7 @@ export default function About() {
             </p>
           </div>
           <div>
-            <img data-aos="fade-up" src={joinUs} alt="" />
+            <img data-aos="zoom-in" src={joinUs} alt="" />
           </div>
         </div>
       </section>
